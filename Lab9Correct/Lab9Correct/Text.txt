@@ -1,0 +1,210 @@
+Welcome to the Firstline Player!  Enter options to see menu options.
+
+Enter your selection now: options
+
+add      Adds a list of songs to the library
+list     Lists all the songs in the library
+addp     Adds a new playlist
+addsp    Adds a song to a playlist
+listp    Lists all the playlists
+play     Plays a playlist
+delp     Deletes a playlist
+delsp    Deletes a song from a playlist
+delsl    Deletes a song from the library (and all playlists)
+options  Prints this options menu
+quit     Quits the program
+
+Enter your selection now: add
+Read in Song names and first lines (type "STOP" when done):
+Song Name: Paradise
+Song's first line: When she was just a girl
+Song Name: Come come ye saints
+Song's first line: Come come ye saints, no toil or labor fear
+Song Name: Yellow
+Song's first line: Look at the stars
+Song Name: Superheroes
+Song's first line: All her life she has seen
+Song Name: When he comes again
+Song's first line: I wonder when he comes again, will herald angels sing
+Song Name: Time
+Song's first line: Ticking away the moments that make up a dull day
+Song Name: STOP
+
+Enter your selection now: list
+Paradise: "When she was just a girl", 0 play(s).
+Come come ye saints: "Come come ye saints, no toil or labor fear", 0 play(s).
+Yellow: "Look at the stars", 0 play(s).
+Superheroes: "All her life she has seen", 0 play(s).
+When he comes again: "I wonder when he comes again, will herald angels sing", 0 play(s).
+Time: "Ticking away the moments that make up a dull day", 0 play(s).
+
+Enter your selection now: addp
+Playlist name: Coding Music
+
+Enter your selection now: addp
+Playlist name: Sunday Favorites
+
+Enter your selection now: addp
+Playlist name: Game Day
+
+Enter your selection now: listp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+
+Enter your selection now: addsp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 0
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 2
+
+Enter your selection now: addsp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 0
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 1
+
+Enter your selection now: addsp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 0
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 3
+
+Enter your selection now: addsp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 1
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 1
+
+Enter your selection now: addsp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 1
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 4
+
+Enter your selection now: play
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 0
+
+Playing first lines of playlist: Coding Music
+Look at the stars
+Come come ye saints, no toil or labor fear
+All her life she has seen
+
+Enter your selection now: play
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number: 1
+
+Playing first lines of playlist: Sunday Favorites
+Come come ye saints, no toil or labor fear
+I wonder when he comes again, will herald angels sing
+
+Enter your selection now: list
+Paradise: "When she was just a girl", 0 play(s).
+Come come ye saints: "Come come ye saints, no toil or labor fear", 2 play(s).
+Yellow: "Look at the stars", 1 play(s).
+Superheroes: "All her life she has seen", 1 play(s).
+When he comes again: "I wonder when he comes again, will herald angels sing", 1 play(s).
+Time: "Ticking away the moments that make up a dull day", 0 play(s).
+
+Enter your selection now: delp
+  0: Coding Music
+  1: Sunday Favorites
+  2: Game Day
+Pick a playlist index number to delete: 2
+
+Enter your selection now: listp
+  0: Coding Music
+  1: Sunday Favorites
+
+Enter your selection now: delsp
+  0: Coding Music
+  1: Sunday Favorites
+Pick a playlist index number: 0
+  0: Yellow
+  1: Come come ye saints
+  2: Superheroes
+Pick a song index number to delete: 0
+
+Enter your selection now: play
+  0: Coding Music
+  1: Sunday Favorites
+Pick a playlist index number: 0
+
+Playing first lines of playlist: Coding Music
+Come come ye saints, no toil or labor fear
+All her life she has seen
+
+Enter your selection now: delsl
+  0: Paradise
+  1: Come come ye saints
+  2: Yellow
+  3: Superheroes
+  4: When he comes again
+  5: Time
+Pick a song index number: 1
+
+Enter your selection now: play
+  0: Coding Music
+  1: Sunday Favorites
+Pick a playlist index number: 0
+
+Playing first lines of playlist: Coding Music
+All her life she has seen
+
+Enter your selection now: play
+  0: Coding Music
+  1: Sunday Favorites
+Pick a playlist index number: 1
+
+Playing first lines of playlist: Sunday Favorites
+I wonder when he comes again, will herald angels sing
+
+Enter your selection now: list
+Paradise: "When she was just a girl", 0 play(s).
+Yellow: "Look at the stars", 1 play(s).
+Superheroes: "All her life she has seen", 3 play(s).
+When he comes again: "I wonder when he comes again, will herald angels sing", 2 play(s).
+Time: "Ticking away the moments that make up a dull day", 0 play(s).
+
+Enter your selection now: quit
+Goodbye!
